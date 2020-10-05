@@ -7,7 +7,7 @@ package:
 source:
   fn: {{ version }}.tar.gz
   url: https://codeberg.org/hjacobs/python-clickclick/archive/{{ version }}.tar.gz
-  sha256: d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed
+  sha256: c6d88c5751873a0c42db2d8e26035a0c94b78c2ba54a7e5085383bcc8c848fd8
   
 build:
   noarch: python
