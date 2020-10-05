@@ -1,4 +1,4 @@
-{% set version = "1.2.2" %}
+{% set version = "20.10.2" %}
 
 package:
   name: clickclick
@@ -7,7 +7,7 @@ package:
 source:
   fn: {{ version }}.tar.gz
   url: https://github.com/zalando/python-clickclick/archive/{{ version }}.tar.gz
-  sha256: 641779b3578f56ab00440806088ed02b95224342544f24de99d97a506f05c457
+  sha256: d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed
   
 build:
   noarch: python
